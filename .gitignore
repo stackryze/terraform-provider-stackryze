@@ -1,0 +1,16 @@
+# Build artifacts
+terraform-provider-stackryze
+dist/
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
