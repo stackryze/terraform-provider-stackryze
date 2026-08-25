@@ -19,7 +19,7 @@ type Client struct {
 
 func New(baseURL, token string) *Client {
 	if baseURL == "" {
-		baseURL = "https://api.stackryze.com/api"
+		baseURL = "https://api-dns.stackryze.com/api"
 	}
 	return &Client{
 		baseURL: strings.TrimRight(baseURL, "/"),

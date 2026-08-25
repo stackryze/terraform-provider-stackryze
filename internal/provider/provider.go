@@ -42,7 +42,7 @@ func (p *stackryzeProvider) Schema(_ context.Context, _ provider.SchemaRequest, 
 		Attributes: map[string]schema.Attribute{
 			"api_url": schema.StringAttribute{
 				Optional:            true,
-				MarkdownDescription: "API base URL. Defaults to `https://api.stackryze.com/api` or `STACKRYZE_API_URL`.",
+				MarkdownDescription: "API base URL. Defaults to `https://api-dns.stackryze.com/api` or `STACKRYZE_API_URL`.",
 			},
 			"api_token": schema.StringAttribute{
 				Optional:            true,
