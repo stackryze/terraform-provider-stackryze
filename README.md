@@ -17,7 +17,7 @@ terraform {
 
 provider "stackryze" {
   # api_token = "sk_dns_xxx"   # or STACKRYZE_API_TOKEN
-  # api_url   = "https://api.stackryze.com/api"  # or STACKRYZE_API_URL
+  # api_url   = "https://api-dns.stackryze.com/api"  # or STACKRYZE_API_URL
 }
 
 data "stackryze_zone" "example" {
